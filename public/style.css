@@ -1,0 +1,58 @@
+body {
+    background: rgb(209, 208, 208);
+    text-align: center;
+    font-family: 'Arvo', serif;
+}
+
+h1 {
+    margin: 50px;
+    color: rgb(60, 60, 60);
+}
+
+div {
+    display: flex;
+    max-width: 600px;
+    margin: auto;
+    padding: 6px;
+    justify-content: space-between;
+}
+
+.pn1,
+#p1 {
+    color: rgb(21, 128, 21);
+}
+
+#_status {
+    text-align: center;
+    min-width: 40px;
+}
+
+.pn2,
+#p2 {
+    color: rgb(156, 28, 28);
+}
+
+#ROOM_ID {
+    text-align: left;
+}
+
+button {
+    padding: 6px 8px 4px 8px;
+    color: whitesmoke;
+    border-radius: 2px;
+    outline: none;
+    border: none;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+#r1 {
+    background: rgb(21, 128, 21);
+}
+
+#r2 {
+    background: rgb(156, 28, 28);
+    ;
+}

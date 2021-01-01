@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Ping Pong Game</h1>
+    <div id="ROOM_ID">
+        <button id="r1" onclick="r1()">Ready</button>
+        <button id="r2">Ready</button>
+    </div>
+    <div>
+        <span class="pn1">You</span>
+        <span class="pn2">Rival</span>
+    </div>
+    <div>
+        <span id="p1">0</span>
+        <span id="p2">0</span>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.2.0/lib/p5.js"></script>
+    <script src="index.js"></script>
+    <script src="paddle.js"></script>
+    <script src="ball.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="client.js"></script>
+</body>
+
+</html>
